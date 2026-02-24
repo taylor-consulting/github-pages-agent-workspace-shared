@@ -7,12 +7,14 @@ description: Creates a new blog post for the taylor-consulting.github.page Jekyl
 
 ## Site Overview
 
-- **Theme**: Minimal Mistakes (`mmistakes/minimal-mistakes@4.27.3`)
-- **Posts directory**: `docs/_posts/`
-- **File naming**: `YYYY-MM-DD-slug-with-hyphens.md` (use today's date unless user specifies otherwise)
-- **URL**: `https://www.taylor-consulting.com`
-- **Author**: Joel Taylor, Taylor Consulting LLC
-- **Timezone**: `America/Chicago`
+To determine site-specific settings, ALWAYS refer to:
+1.  **`.agent-config.yml`**: Root configuration for agent settings (categories, tags, paths).
+2.  **`docs/_config.yml`**: Jekyll site configuration (URL, timezone, theme).
+
+- **Theme**: Minimal Mistakes
+- **Posts directory**: Refer to `blog.posts_dir` in `.agent-config.yml` (default: `docs/_posts/`)
+- **URL**: Refer to `site.url` in `.agent-config.yml` or `url` in `docs/_config.yml`
+- **Timezone**: Refer to `site.timezone` in `.agent-config.yml` or `timezone` in `docs/_config.yml`
 
 ## Front Matter Template
 

@@ -7,8 +7,12 @@ description: Creates a new static page for the taylor-consulting.github.page Jek
 
 ## Site Overview
 
-- **Theme**: Minimal Mistakes (`mmistakes/minimal-mistakes@4.27.3`)
-- **Pages directory**: `docs/_pages/`
+To determine site-specific settings, ALWAYS refer to:
+1.  **`.agent-config.yml`**: Root configuration for agent settings (paths, main branch).
+2.  **`docs/_config.yml`**: Jekyll site configuration (theme, defaults).
+
+- **Theme**: Minimal Mistakes
+- **Pages directory**: Refer to `pages.pages_dir` in `.agent-config.yml` (default: `docs/_pages/`)
 - **Navigation config**: `docs/_data/navigation.yml`
 - **`_config.yml`** sets `layout: single` and `author_profile: true` as defaults for all pages — do NOT repeat these in front matter unless overriding.
 

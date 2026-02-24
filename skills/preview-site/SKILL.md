@@ -13,21 +13,21 @@ The site can be previewed locally using Jekyll before pushing to GitHub. The pre
 
 - Ruby installed (verify: `ruby -v`)
 - Bundler installed (verify: `bundle -v`, or install with `gem install bundler`)
-- `docs/Gemfile` exists in the repo (already set up)
+- `Gemfile` exists in the site source directory (e.g., `docs/Gemfile`)
 
 ## Key Files
 
-- **Gemfile**: `docs/Gemfile` — defines Jekyll and plugin gems
-- **Site source**: `docs/` — all Jekyll content lives here
-- **Config**: `docs/_config.yml`
+- **Gemfile**: Refer to the site source directory (usually `docs/Gemfile`)
+- **Site source**: Refer to `blog.posts_dir` parent in `.agent-config.yml` (usually `docs/`)
+- **Config**: Root Jekyll config (usually `docs/_config.yml`)
 
 ## Commands
 
-Run all commands from the `docs/` directory:
+Run all commands from the site source directory (usually `docs/`):
 
 ```powershell
 # First time only — install gems
-cd d:\git\taylor-consulting.github.page\docs
+cd (Get-Item .agent-config.yml).Directory.FullName\docs  # Adjust based on .agent-config.yml
 bundle install
 
 # Start the local server

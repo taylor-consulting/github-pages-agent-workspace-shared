@@ -13,7 +13,10 @@ This skill is designed to be used in conjunction with the `create-pr` workflow. 
 
 Strive for clear, concise commit messages.
 
-- **Format**: `Action: Brief description`
+## Git Context
+
+- **Main branch**: Refer to `git.main_branch` in `.agent-config.yml` (default: `main`)
+- **Remote**: `origin`
 - **Examples**:
   - `Feat: add "Click" book review post`
   - `Fix: update broken link in resume`
