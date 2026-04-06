@@ -27,7 +27,7 @@ Run all commands from the site source directory (usually `docs/`):
 
 ```powershell
 # First time only — install gems
-cd (Get-Item .agent-config.yml).Directory.FullName\docs  # Adjust based on .agent-config.yml
+cd docs
 bundle install
 
 # Start the local server

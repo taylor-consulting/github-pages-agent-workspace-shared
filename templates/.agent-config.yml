@@ -1,0 +1,25 @@
+# Agent Workspace Configuration template
+
+site:
+  name: "example.com"
+  url: "https://www.example.com"
+  author: "Joel Taylor"
+  timezone: "America/Chicago"
+
+blog:
+  posts_dir: "docs/_posts"
+  drafts_dir: "docs/_drafts"
+  categories:
+    - "list of categories"
+  default_tags:
+    - "a tag"
+
+pages:
+  pages_dir: "docs/_pages"
+
+git:
+  main_branch: "main"
+
+github:
+  owner: "<<github user name>>"
+  repo: "<<reponame>>"

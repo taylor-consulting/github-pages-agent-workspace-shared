@@ -1,5 +1,5 @@
 ---
-description: Add a new blog post to the taylor-consulting.github.page Jekyll site
+description: Add a new blog post to a Jekyll site
 ---
 
 # Add Blog Post Workflow
@@ -25,4 +25,4 @@ Read `.agent/skills/add-blog-post/SKILL.md` before starting.
 5. **Confirm with the user** — Show the file path and the front matter block. Ask if they want any revisions before committing.
 
 // turbo
-6. **Optionally stage the file** — Run `git add docs/_posts/YYYY-MM-DD-slug.md` from the repo root (`d:\git\taylor-consulting.github.page`) if the user confirms they are ready to commit.
+6. **Optionally stage the file** — Run `git add {blog.posts_dir}/YYYY-MM-DD-slug.md` from the repo root if the user confirms they are ready to commit.

@@ -1,6 +1,6 @@
 ---
 name: Add Blog Post
-description: Creates a new blog post for the taylor-consulting.github.page Jekyll site (Minimal Mistakes theme). Use this skill whenever the user asks to write, draft, or create a new blog article or post.
+description: Creates a new blog post for a Jekyll site (Minimal Mistakes theme). Use this skill whenever the user asks to write, draft, or create a new blog article or post.
 ---
 
 # Add Blog Post Skill

@@ -1,6 +1,6 @@
 ---
 name: Add Page
-description: Creates a new static page for the taylor-consulting.github.page Jekyll site (Minimal Mistakes theme). Use this skill whenever the user asks to add, create, or build a new site page (not a blog post).
+description: Creates a new static page for a Jekyll site (Minimal Mistakes theme). Use this skill whenever the user asks to add, create, or build a new site page (not a blog post).
 ---
 
 # Add Page Skill

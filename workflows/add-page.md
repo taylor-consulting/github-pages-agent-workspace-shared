@@ -1,5 +1,5 @@
 ---
-description: Add a new static page to the taylor-consulting.github.page Jekyll site
+description: Add a new static page to a Jekyll site
 ---
 
 # Add Page Workflow

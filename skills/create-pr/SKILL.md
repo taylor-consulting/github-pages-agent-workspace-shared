@@ -31,7 +31,7 @@ Strive for clear, concise commit messages.
 
 Since we cannot create the PR via CLI, we generate a URL that opens the PR creation page on GitHub with the correct branches pre-selected.
 
-- **Base URL**: `https://github.com/taylor-consulting/taylor-consulting.github.page/compare/main...[BRANCH_NAME]`
+- **Base URL**: `https://github.com/{github.owner}/{github.repo}/compare/{git.main_branch}...[BRANCH_NAME]`
 - **Replace `[BRANCH_NAME]`** with the local branch name that was pushed to origin.
 
 ## PR Description Template

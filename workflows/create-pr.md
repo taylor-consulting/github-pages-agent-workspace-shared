@@ -1,5 +1,5 @@
 ---
-description: Create a pull request for the taylor-consulting.github.page repo
+description: Create a pull request for a GitHub Pages Jekyll site repo
 ---
 
 # Create Pull Request Workflow
@@ -38,6 +38,6 @@ Read `.agent/skills/create-pr/SKILL.md` before starting.
    ```
 
 5. **Generate PR Link** — Construct the GitHub URL and present it to the user.
-   The link should be: `https://github.com/taylor-consulting/taylor-consulting.github.page/compare/main...[BRANCH_NAME]`
+   The link should be: `https://github.com/{github.owner}/{github.repo}/compare/{git.main_branch}...[BRANCH_NAME]`
 
 6. **Finalize** — Inform the user that the changes are pushed and they can complete the PR using the link provided.

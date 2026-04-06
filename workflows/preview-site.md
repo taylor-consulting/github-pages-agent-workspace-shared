@@ -10,15 +10,15 @@ Read `.agent/skills/preview-site/SKILL.md` before starting.
 ## Steps
 
 // turbo
-1. **Install gems** (first time only) — Run `bundle install` from the `docs/` directory:
+1. **Install gems** (first time only) — Run `bundle install` from the site source directory (refer to .agent-config.yml for paths):
    ```powershell
-   cd d:\git\taylor-consulting.github.page\docs; bundle install
+   cd docs; bundle install
    ```
 
 // turbo
 2. **Start the local server** — Run Jekyll serve with live reload and drafts enabled:
    ```powershell
-   cd d:\git\taylor-consulting.github.page\docs; bundle exec jekyll serve --livereload --drafts
+   cd docs; bundle exec jekyll serve --livereload --drafts
    ```
 
 3. **Open the browser** — Navigate to http://localhost:4000 to view the site.
